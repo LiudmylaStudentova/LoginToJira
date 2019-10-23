@@ -30,6 +30,6 @@ public class JIRATest extends BaseTest {
 
         createIssuePage.clickCreateIssue();
 
-        Assert.assertTrue(createIssuePage.issueCreatedPopupPresent());
+        Assert.assertTrue(createIssuePage.issueCreatedPopupPresent());///test
     }
 }
